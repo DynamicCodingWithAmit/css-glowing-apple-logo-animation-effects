@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 200px;
+    background-color:black;
+    color:white;
+}
+.fab{
+    text-shadow: -40px -40px 80px magenta,
+    40px 40px 80px magenta;
+    animation: color 2s infinite;
+}
+@keyframes color{
+    0%{
+        text-shadow: -40px -40px 80px red,
+    40px 40px 80px red;
+    }
+    20%{
+        text-shadow: -40px -40px 80px orange,
+    40px 40px 80px orange;
+    }
+    50%{
+        text-shadow: -40px -40px 80px yellow,
+    40px 40px 80px yellow;
+    }
+    70%{
+        text-shadow: -40px -40px 80px blue,
+    40px 40px 80px blue;
+    }
+    100%{
+        text-shadow: -40px -40px 80px green,
+    40px 40px 80px green;
+    }
+}
